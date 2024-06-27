@@ -1,0 +1,27 @@
+{
+    "discord_webhooks":[
+      {
+          "name":"discord_webhook",
+          "url":"https://yourdiscordwebhookurl.com",
+          "title":"title",
+          "color":"1523940",
+          "pingid":""
+      }
+    ],
+    "telegram_webhooks":[
+      {
+          "name":"telegram_webhook",
+          "token":"yourtoken",
+          "chat_id":"yourchatid"
+      }
+    ],
+    "gotify_webhooks":[
+      {
+          "name":"gotify_webhook",
+          "url":"https://yourgotifyurl",
+          "token":"yourgotifyapptoken",
+          "title":"title",
+          "priority":"0"
+      }
+    ]
+  }

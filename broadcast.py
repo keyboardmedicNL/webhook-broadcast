@@ -34,7 +34,7 @@ with open("config/config.json") as config:
     gotify_webhooks = configJson["gotify_webhooks"]
 print("succesfully loaded config")
 
-# main loop
+# main
 
 message_input = input("\nwrite the message to broadcast and hit enter...\n")
 
