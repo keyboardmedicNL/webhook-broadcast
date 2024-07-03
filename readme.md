@@ -60,4 +60,5 @@ Webhook-broadcast is a simple tool that allows you to broadcast a message to mul
   }
   ```
   - run the application and input the message to broadcast, hit enter to send
+  - you can press ctrl+C at any time to stop the script
   - additionally if your on linux you can create a quick alias by editing ```~/.bashrc``` and by adding the following line at the bottom of the file ``` alias your_alias_name="cd /path/to/your/script && /usr/bin/python broadcast.py && cd -" ``` followed by ```source ~/.bashrc``` to reload your enviroment and activate the alias
