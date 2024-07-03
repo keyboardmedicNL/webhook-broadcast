@@ -6,6 +6,7 @@ Webhook-broadcast is a simple tool that allows you to broadcast a message to mul
 - fill in the config as needed with your details:
 ```
 {
+  "debug":"true or false(makes the script extra verbose for troubleshooting)",
     "discord_webhooks":[
       {
           "name":"discord_webhook",
@@ -59,3 +60,4 @@ Webhook-broadcast is a simple tool that allows you to broadcast a message to mul
   }
   ```
   - run the application and input the message to broadcast, hit enter to send
+  - additionally if your on linux you can create a quick alias by editing ```~/.bashrc``` and by adding the following line at the bottom of the file ``` alias your_alias_name="cd /path/to/your/script && /usr/bin/python broadcast.py && cd -" ``` followed by ```source ~/.bashrc``` to reload your enviroment and activate the alias

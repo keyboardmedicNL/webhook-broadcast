@@ -1,4 +1,5 @@
 {
+  "debug":"true",
     "discord_webhooks":[
       {
           "name":"discord_webhook",
