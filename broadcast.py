@@ -55,7 +55,7 @@ print("\navailable gotify webhooks are:")
 for gotify_hook in gotify_webhooks:
     print(gotify_hook["name"])
 
-choice_input = input("\nplease input all webhooks you would like to send to seperated by commas. leave blank if you want to send to all\n")
+choice_input = input("\nplease input all webhooks you would like to send to seperated by commas. leave blank if you want to send to all... press Ctrl+C at any time to cancel\n")
 if choice_input == "":
     choice_print = "all"
 else:
@@ -65,7 +65,7 @@ choice_array = choice_print.split(",")
 if debug:
     print(f"DEBUG: choice array: {str(choice_array)}")
 
-message_input = input("\nwrite the message to broadcast and hit enter...\n")
+message_input = input("\nwrite the message to broadcast and hit enter... press Ctrl+C at any time to cancel\n")
 print(f"message to send: {message_input}\n")
 
 # discord webhooks
